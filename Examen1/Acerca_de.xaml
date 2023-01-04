@@ -1,0 +1,16 @@
+﻿<Window x:Class="Examen1.Acerca_de"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Examen1"
+        mc:Ignorable="d"
+        Title="Acerca_de" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblNombre" Content="Nombre del Desarrollador :" HorizontalAlignment="Left" Margin="117,50,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lblanio" Content="Año de Creacion :" HorizontalAlignment="Left" Margin="117,81,0,0" VerticalAlignment="Top" FontWeight="Bold" Width="164"/>
+        <Label x:Name="lblName" Content="Ricardo Furniel Pereira" HorizontalAlignment="Left" Margin="281,50,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.447,-0.037" Height="26" FontWeight="Bold" Width="190"/>
+        <Label x:Name="lblTiempo" Content="12/12/2022" HorizontalAlignment="Left" Margin="243,81,0,0" VerticalAlignment="Top" Width="133" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
